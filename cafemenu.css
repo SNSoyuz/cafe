@@ -16,18 +16,18 @@ p {
 
 
 .container{
-    height: 100dvh;
-    width: 100%;
+    height: 97dvh;
+    width: 179dvh;
     border: 1.5px solid #926b6b;
 }
 
 
 header{
-    height: 14dvh;
+    height: 13dvh;
     width: 100%;
 }
 .title{
-    height: 9dvh;
+    height: 8dvh;
     width: 100%;
     background-color: white;
     border: 1px solid #926b6b;
@@ -54,7 +54,7 @@ header{
 
 
 .content{
-    height: 80dvh;
+    height: 79dvh;
     width: 100%;
     background-color: white;
     display :flex;
@@ -62,7 +62,7 @@ header{
 
 .left{
     height: 100%;
-    width: 15%;
+    width: 33dvh;
     padding:0;
 }
 .list{
@@ -79,7 +79,7 @@ header{
 
 .center{     
     height: 100%;
-    width: 55%;
+    width: 113dvh;
     padding: 0 10px;
 }
 .meal {
@@ -100,7 +100,7 @@ header{
     display: inline;
     margin-left: 20px;
     margin-bottom: 18px;
-    width: 420px; 
+    width: 450px; 
     height: 40px; 
     font-size: 16px; 
     padding: 8px 12px;
@@ -108,7 +108,7 @@ header{
 
 .right{
     height: 70dvh;
-    width: 30%;
+    width: 33dvh;
     margin-top: 15px;
     background-color: black;
 }
@@ -125,17 +125,17 @@ h2 {
 .img {
     margin-top: 0;
     margin-left: 30px;
-    width: 469px;
-    height: 200px;
+    width: 230px;
+    height: 140px;
 }
 .chuthich{
     color: white;
     font-size: 14px;
     margin-left: 30px;
-    display: inline;
+
 }
 .read-more{
-    display: inline;
+
     color: #ea9696;
     text-decoration: underline;
     text-decoration-color: #ea9696;
@@ -153,7 +153,7 @@ footer{
     align-items: center; 
     justify-content: center; 
     border: 1px solid #926b6b;
-    height: 6dvh;
+    height: 5dvh;
     width: 100%;
     background-color: #ea9696;
 }
