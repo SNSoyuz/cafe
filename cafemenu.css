@@ -80,7 +80,7 @@ header{
 .center{     
     height: 100%;
     width: 63%;
-    margin-left: 55px;
+    margin-left: 40px;
     padding: 0 10px;
 }
 .meal {
@@ -110,6 +110,7 @@ header{
 .right{
     height: 70dvh;
     width: 22%;
+    margin-right:10px;
     margin-top: 15px;
     background-color: black;
 }
@@ -126,7 +127,7 @@ h2 {
 .img {
     margin-top: 0;
     margin-left: 30px;
-    width: 270px;
+    width: 250px;
     height: 140px;
 }
 .chuthich{
