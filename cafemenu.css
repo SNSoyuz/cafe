@@ -51,6 +51,16 @@ header{
     font-size: 16px;
     font-weight: bold;
 }
+.home{
+    margin-right: 0dvh;
+    margin-bottom: 1.3dvh;
+}
+.button{
+    margin-left: 0.5dvh;
+}
+.go{
+    margin-left: 3dvh;
+}
 
 
 .content{
@@ -58,13 +68,18 @@ header{
     width: 100%;
     background-color: white;
     display :flex;
+    justify-content: center;
 }
 
 .left{
     height: 100%;
-    width: 15%;
+    width: 20%;
     padding:0;
-    margin-right: 36px;
+}
+.ul1{
+    list-style: none; 
+    padding:0;
+    margin:0;
 }
 .list{
         justify-items: left;
@@ -77,14 +92,16 @@ header{
         font-size: 14px;
         text-align: left;
 }
+.Company{
+    border-radius: 50%; 
+    box-shadow: 5px 10px 30px #ea9696;
+}
 
 .center{     
     height: 100%;
     width: 60%;
-    margin: auto;
-    padding: 0 10px;
-    margin-left: 40px;
-    margin-right: 0px;
+    margin: 0;
+    padding-left: 36px;
 }
 .meal {
     display: flex;
@@ -100,6 +117,17 @@ header{
     padding: 8px 18px; 
     letter-spacing: 6px;
 }
+.ul2{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.span{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.div{
+    display: flex;
+}
 .input{
     display: flex;
     margin-left: 20px;
@@ -109,9 +137,41 @@ header{
     font-size: 16px; 
     padding: 8px 12px;
 }
+.input1{
+    width: 430px;
+    height: 50px;
+}
+.select{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 18px;
+    width: 430px; 
+    height: 45px; 
+    font-size: 16px; 
+    padding: 8px 12px;
+    align-items: center;
+}
+.radio{
+    margin-left: 20px;
+}
+.textarea{
+    display: flex;
+    width: 836px; 
+    height: 50px;
+    margin-bottom: 18px;
+    margin-left: 25px;
+    font-size: 16px; 
+    padding: 8px 12px;
+}
+.submit{
+    width: 60px; height: 36px; margin-left: 20px;
+}
+.cancel{
+    width: 60px; height: 36px;
+}
 
 .right{
-    height: 70dvh;
+    height: 73dvh;
     width: 25%;
     margin-right:10px;
     margin-top: 15px;
@@ -132,6 +192,7 @@ h2 {
     margin-left: 30px;
     width: 250px;
     height: 140px;
+    display: block;
 }
 .chuthich{
     color: white;
