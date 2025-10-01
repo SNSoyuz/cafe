@@ -97,7 +97,7 @@ header{
     letter-spacing: 6px;
 }
 .input{
-    display: inline;
+    display: flex;
     margin-left: 20px;
     margin-bottom: 18px;
     width: 520px; 
