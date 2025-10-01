@@ -16,7 +16,7 @@ p {
 
 
 .container{
-    height: 98dvh;
+    height: 140dvh;
     width: 100%;
     border: 1.5px solid #926b6b;
 }
@@ -54,7 +54,7 @@ header{
 
 
 .content{
-    height: 79dvh;
+    height: 121dvh;
     width: 100%;
     background-color: white;
     display :flex;
