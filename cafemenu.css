@@ -16,8 +16,8 @@ p {
 
 
 .container{
-    height: 97dvh;
-    width: 172dvh;
+    height: 98dvh;
+    width: 100%;
     border: 1.5px solid #926b6b;
 }
 
@@ -62,7 +62,7 @@ header{
 
 .left{
     height: 100%;
-    width: 36dvh;
+    width: 15%;
     padding:0;
 }
 .list{
@@ -79,7 +79,7 @@ header{
 
 .center{     
     height: 100%;
-    width: 100dvh;
+    width: 63%;
     padding: 0 10px;
 }
 .meal {
@@ -100,18 +100,16 @@ header{
     display: inline;
     margin-left: 20px;
     margin-bottom: 18px;
-    width: 390px; 
+    width: 520px; 
     height: 30px; 
     font-size: 16px; 
     padding: 8px 12px;
 }
 
 .right{
-    margin: 0;
     height: 70dvh;
-    width: 36dvh;
+    width: 22%;
     margin-top: 15px;
-    margin-bottom: 60px;
     background-color: black;
 }
 h1 {
@@ -155,7 +153,7 @@ footer{
     align-items: center; 
     justify-content: center; 
     border: 1px solid #926b6b;
-    height: 5dvh;
+    height: 6dvh;
     width: 100%;
     background-color: #ea9696;
 }
