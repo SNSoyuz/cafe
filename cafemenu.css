@@ -17,7 +17,7 @@ p {
 
 .container{
     height: 97dvh;
-    width: 179dvh;
+    width: 172dvh;
     border: 1.5px solid #926b6b;
 }
 
@@ -62,7 +62,7 @@ header{
 
 .left{
     height: 100%;
-    width: 33dvh;
+    width: 36dvh;
     padding:0;
 }
 .list{
@@ -79,7 +79,7 @@ header{
 
 .center{     
     height: 100%;
-    width: 113dvh;
+    width: 100dvh;
     padding: 0 10px;
 }
 .meal {
@@ -100,16 +100,18 @@ header{
     display: inline;
     margin-left: 20px;
     margin-bottom: 18px;
-    width: 450px; 
+    width: 390px; 
     height: 40px; 
     font-size: 16px; 
     padding: 8px 12px;
 }
 
 .right{
+    margin: 0;
     height: 70dvh;
-    width: 33dvh;
+    width: 36dvh;
     margin-top: 15px;
+    margin-bottom: 60px;
     background-color: black;
 }
 h1 {
@@ -125,7 +127,7 @@ h2 {
 .img {
     margin-top: 0;
     margin-left: 30px;
-    width: 230px;
+    width: 270px;
     height: 140px;
 }
 .chuthich{
