@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example cafe meunu</title>
+    <link rel="stylesheet" href="cafemenu.css"> 
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="title"> <p id="Top"> EXAMPLE CAFE MENU </p></div>
+        <div class="navigation"> 
+        <img src="icons8-home-50.png" alt="home" style="margin-right: 0dvh; margin-bottom: 1.3dvh;" height="22 dvh" width="22 dvh">
+        <p class="vertical-line"></p>
+        <p>STARTER</p>
+        <p class="vertical-line"></p>
+        <p>MAIN COURSES</p>
+        <p class="vertical-line"></p>
+        <p>DESSERTS</p>
+        <p class="vertical-line"></p>
+        <input type="text" style="margin-left: 3dvh;">
+        <button style="margin-left: 0.5dvh;"> Go</button>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="left">
+            <ul style="list-style: none; padding:0;margin:0;">
+                <li class="list"> Cafe Latte </li>
+                <li class="list"> Capuchino </li>
+                <li class="list"> Ocean Blue </li>
+                <li class="list"> Ice-cream Cafe </li>
+                <li class="list"> Order Online </li>
+            </ul>
+            <img src="company.png" alt="company" style="border-radius: 50%; box-shadow: 5px 10px 30px #ea9696;" width="277px" height="180px">
+        </div>
+
+        <div class="center">
+            <p class="meal"> S t a r t e r </p>
+            <ul style="margin-bottom: 0;font-size: 16px;">
+                <li>Chesnut and Mushroom Goujons <span class="red">(v)</span></li>
+                <li>Goat Cheese<span class="red">(v)</span></li>
+                <li><span style="color: darkgoldenrod;font-weight: bold;"> HONEY SOY CHICKEN KEBABS</span><span class="red">(V)</span></li>
+                <li>Seafood Salad<span class="red">(v)</span></li>
+            </ul>
+            <a href="#Top" class="red">Back to top</a>
+
+            <p class="meal"> D e s s e r t s </p>
+            <ul style="margin-bottom: 0;font-size: 16px;">
+                <li>Lemon Sorbet <span class="red">(v)</span></li>
+                <li>Chocolate Mud Pie<span class="red">(v)</span></li>
+                <li>Pecan Pie<span class="red">(v)</span></li>
+                <li>Selection of fine Cheeses from Around the World<span class="red">(v)</span></li>
+            </ul>
+            <a href="#Top" class="red">Back to top</a>
+
+            <p class="meal"> I N F O R M A T I O N </p>
+            <input type="text" placeholder="First Name" class="input">
+            <input type="text" placeholder="Last Name" class="input"> <br>
+            <input type="text" placeholder="Email" class="input">
+            <input type="text" placeholder="Telephone" class="input"> <br>
+            <input type="search" list="search-suggestions" value="USA" class="input" style="width: 450px; height: 60px;" >
+                <datalist id="search-suggestions">
+                    <option value="USA">
+                    <option value="VIETNAM">
+                </datalist>
+            <input type="radio" style="margin-left: 16px;">Vietnamese <input type="radio" style="margin-left: 16px;">Foreigner <br>
+            <textarea class="input" style="width: 869px; height: 50px;margin-left: 30px;margin-bottom: 10px;" value="Comment"></textarea><br>
+            <input type="submit" value="Submit" style="width: 60px; height: 36px; margin-left: 15px;">
+            <input type="reset" value="Cancel" style="width: 60px; height: 36px; ">
+        </div>
+
+        <div class="right">
+            <h1>Event</h1>
+            <h2>Regular Meetings</h2>
+            <img src="meeting.png" alt="meeting" class="img" style="display: block;">
+            <p class="chuthich">Host your regular team meetings or activities in the comfort of your own private room.</p>
+            <details class="read-more">
+            <summary>Read More...</summary>
+                <p>Charge up on Kith's aromatic coffee and delectable dishes for that extra boost in your work!</p>
+            </details>
+
+            <h2>Product Launches</h2>
+            <img src="launch.png" alt="launch" class="img" style="display: block;">
+            <p class="chuthich" style="display: inline;">Launch your product with ease in a space that truly fits its image.</p>
+            <details class="read-more">
+            <summary>Read More...</summary>
+                <p>Create an unforgettable experience for your guests with our spacious outlets! Whether you want to host an intimate celebration or launch an event for hundreds of guests, Kith's space is customisable to your needs</p>
+            </details>
+        </div>
+
+    </div>
+
+    <footer>
+        <p> ABC Company <sup>©</sup> -12345678 - abccoffee@gmail.com </p>
+    </footer>
+    </div>
+</body>
+</html>
