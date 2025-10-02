@@ -13,6 +13,13 @@ p {
     text-decoration-color: rgb(219, 0, 0);
     font-weight: bold;
 }
+.red2{
+    color: rgb(219, 0, 0);
+    text-decoration: underline;
+    text-decoration-color: rgb(219, 0, 0);
+    font-weight: bold;
+    padding-left: 110px;
+}
 
 
 .container{
@@ -75,6 +82,7 @@ header{
     height: 100%;
     width: 20%;
     padding:0;
+    justify-content: left;
 }
 .ul1{
     list-style: none; 
@@ -102,6 +110,8 @@ header{
     width: 60%;
     margin: 0;
     padding-left: 36px;
+    justify-content: center;
+    justify-items: center;
 }
 .meal {
     display: flex;
@@ -111,6 +121,7 @@ header{
     font-weight: bold;
     color: #b10000;
     justify-content: left ;
+    justify-items: center;
     align-items: center;
     margin: 10px 360px 10px 360px;
     background-color: #ea9696;
@@ -120,6 +131,8 @@ header{
 .ul2{
     margin-bottom: 0;
     font-size: 16px;
+    justify-items: left;
+    padding-left: 165px;
 }
 .span{
     color: darkgoldenrod;
@@ -136,6 +149,7 @@ header{
     height: 30px; 
     font-size: 16px; 
     padding: 8px 12px;
+    justify-items: left;
 }
 .input1{
     width: 430px;
@@ -171,11 +185,12 @@ header{
 }
 
 .right{
-    height: 73dvh;
+    height: 82dvh;
     width: 25%;
     margin-right:10px;
     margin-top: 15px;
     background-color: black;
+    justify-content: right;
 }
 h1 {
     color: white;
